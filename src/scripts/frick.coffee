@@ -16,3 +16,4 @@
 module.exports = (robot) ->
   robot.hear /frick/i, (msg) ->
     msg.send 'https://twitter.com/holman/status/296703339696111617'
+    msg.send 'https://twitter.com/montana/status/296703339696111617'
